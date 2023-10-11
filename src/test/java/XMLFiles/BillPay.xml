@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bill Pay">
+    <test name="BillPay">
+
+        <parameter name="browser" value="firefox"></parameter>
+
+        <classes>
+            <class name="Runners._02_BillPayRunner"></class>
+        </classes>
+    </test>
+</suite>
